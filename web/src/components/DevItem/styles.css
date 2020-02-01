@@ -1,0 +1,85 @@
+li.dev-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-item header img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+    margin-left: 10px;
+}
+
+.user-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+li.dev-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+
+
+.dev-item .dev-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+li.dev-item .dev-links a {
+    color: #8E4DFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li.dev-item .dev-links a:hover {
+    color: #5A2EA6;
+}
+
+.dev-item .dev-links .dev-actions{
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+}
+
+.dev-actions button {
+    background-color: transparent;
+    border: 0px;
+    color: #8E4DFF;
+}
+
+.dev-actions button i {
+    font-size: 22px;
+}
+
+
+.dev-actions .delete-button:hover {
+    color: #fc4242;
+}
+
+.dev-actions .edit-button:hover {
+    color: #5A2EA6;
+}
